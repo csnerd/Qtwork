@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(345,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(611,5): error MSB6006: "link.exe" exited with code 1120.
+myWindow.obj : error LNK2001: unresolved external symbol "public: virtual struct QMetaObject const * __cdecl myWindow::metaObject(void)const " (?metaObject@myWindow@@UEBAPEBUQMetaObject@@XZ)
+myWindow.obj : error LNK2001: unresolved external symbol "public: virtual void * __cdecl myWindow::qt_metacast(char const *)" (?qt_metacast@myWindow@@UEAAPEAXPEBD@Z)
+myWindow.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl myWindow::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@myWindow@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+C:\Users\Mohamed\Desktop\glew-20130715\Graphics bad\x64\Debug\Graphics bad.exe : fatal error LNK1120: 3 unresolved externals
